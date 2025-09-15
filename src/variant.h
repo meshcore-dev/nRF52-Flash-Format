@@ -43,6 +43,12 @@ extern "C"
 #define PIN_SERIAL1_TX (-1)
 #define LED_STATE_ON LOW
 
+// Placeholder pins to allow CustomLFS to compile
+#define SPI_INTERFACES_COUNT    (1)
+#define PIN_SPI_MOSI            (255)
+#define PIN_SPI_MISO            (255)
+#define PIN_SPI_SCK             (255)
+
 #ifdef __cplusplus
 }
 #endif
